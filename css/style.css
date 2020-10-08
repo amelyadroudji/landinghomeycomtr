@@ -1,0 +1,416 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-left {
+  background-color: #f0faff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.languages {
+
+}
+
+.languages button {
+  border: 0;
+  outline: 0;
+  padding: 0.8rem 0;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  background-color: #1370a4;
+  color: white;
+  font-size: 1rem;
+}
+
+.languages button:hover .dropdown-content{
+  display: block;
+  z-index: 99;
+}
+
+.languages .dropdown-content {
+ background-color: white;
+ box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.1);
+   width: 100%;
+   display: none;
+   position: absolute;
+   top:100%;
+   right: 0;
+}
+
+.languages .dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 0.7rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.languages .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.form-box h2{
+color: #1370a4;
+font-weight: 900;
+margin-top: 1.5rem;
+font-size: 2rem;
+}
+
+.form-box p {
+  font-size: 14px;
+}
+
+.form-box form{
+margin-top: 3rem;
+}
+
+.form-box form input{
+height: 50px;
+display: block;
+width: 100%;
+outline: none;
+margin-top: 0.6rem;
+padding: 0.5rem;
+border: 0.06rem solid #cccccc;
+color: #cccccc;
+background: none;
+}
+
+.country {
+margin-top: 0.6rem;
+height: 50px;
+background: none;
+width: 100%;
+outline: none;
+border: 0.06rem solid #cccccc;
+}
+
+.form-box form textarea{
+width: 100%;
+resize: none;
+outline: none;
+border: 0.06rem solid #cccccc;
+margin-top: 0.6rem;
+padding: 0.5rem;
+color: #cccccc;
+background: none;
+}
+
+::placeholder {
+  color: #aeb1b2;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #aeb1b2;
+}
+
+::-ms-input-placeholder {
+  color: #aeb1b2;
+}
+
+
+.form-box form button {
+  width: 100%;
+  border: none;
+  margin-top: 1.5rem;
+  padding: 1.2rem 0;
+  text-transform: uppercase;
+  color: white;
+  background-color: #1370a4;
+  font-size: 18px;
+}
+
+/****section 2***/
+
+.content-page {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.section {
+  background-image: url("../images/background-header.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.header-middle {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 85%;
+}
+
+.img-wrapper-passport {
+  height: 100%;
+  width: 100%;
+}
+
+.img-wrapper-passport img{
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+    display: inline-block;
+}
+
+.div-block-2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1.8rem 1.2rem;
+}
+
+.div-block-2 h2{
+  font-weight: 900;
+    color: #1370a4;
+    line-height: 40px;
+}
+
+.text-span {
+  color: #95324e;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.div-block-2 h6{
+  font-size: 19px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.div-block-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-block-4 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+     background-color: #f9d029;
+}
+
+.div-block-5 {
+ background-color: #1370a4;
+    color: #fff;
+}
+
+.div-block-5 p{
+  margin: 13px;
+}
+
+.text-span-2 {
+  font-weight: 700;
+}
+
+.section-2 {
+padding: 2.5rem 7rem;
+}
+
+.section-2 h3{
+font-size: 36px;
+font-weight: 900;
+color: #1370a4;
+position: relative;
+z-index: 2;
+margin-left: 1rem;
+line-height: 40px;
+word-spacing: 3px;
+}
+
+.section-2 h3::before{
+content: "";
+position: absolute;
+left: -1rem;
+background-color: #f9d029;
+width: 20px;
+height: 100%;
+z-index: -1;
+
+}
+
+.section-2 p {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+line-height: 2.3rem;
+font-size:18px;
+margin: 2rem 0;
+}
+
+.section-2 h5{
+font-size: 26px;
+font-weight: bolder;
+margin-top: 2rem;
+}
+
+.passport-img-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.passport-img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.steps {
+list-style: none;
+counter-reset: my-awesome-counter;
+margin-top: 3rem;
+margin-bottom: 5rem;
+}
+
+.steps li {
+    counter-increment: my-awesome-counter;
+    margin-top: 1rem;
+    line-height: 2.2em;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+
+.steps li::before {
+    content: counter(my-awesome-counter);
+    background: black;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    line-height: 2rem;
+    color: white;
+    text-align: center;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.list {
+    margin-top: 3rem;
+}
+
+.list.not-ordered {
+    display: block;
+    line-height: 2.5rem;
+}
+
+.pre-title {
+  margin-bottom: 2.5rem;
+}
+
+.fixed-whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #1370a4;
+  color: white !important;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 101;
+  font-size: 22px;
+  text-decoration: none !important;
+  animation: bot-to-top 2s ease-out;
+}
+
+.fixed-whatsapp:hover .fa-whatsapp{
+    -webkit-transition : -webkit-transform 1s;
+    display: block;
+}
+
+.fixed-whatsapp:hover > .fa-whatsapp{
+  -webkit-transform: rotate(-360deg) translateZ(0);
+}
+
+.call-us-div ul{
+list-style: none;
+position: fixed;
+right: 40px;
+bottom: 80px;
+z-index: 100;
+padding-bottom: 20px;
+}
+
+.call-us-div ul li {
+margin-bottom: 10px;
+}
+
+.call-us-div ul li a{
+text-decoration: none;
+width: 60px;
+height: 60px;
+color: white;
+box-shadow: 2px 2px 3px #999;
+background-color: #1370a4;
+color: white;
+border-radius: 50%;
+justify-content: center;
+display: flex;
+align-items: center;
+font-size: 22px;
+}
+
+.list-call{
+  transform: scale(0);
+  transition: transform 1s;
+}
+
+.whatsapp {
+  background-color: #25d366 !important;
+  display: block;
+}
+
+.fixed-whatsapp:hover ~ .list-call{
+transform: scale(1);
+}
+
+
+/***testimonials */
+
+.img-wrapper-testimonials {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+}
+
+.img-wrapper-testimonials img{
+  width: 100%;
+  height: auto;
+}
+
+.section-2 .col-lg-4 {
+  margin-top: 1rem;
+}
+/** end of testimonials **/
+
+
+/*** copyright **/
+
+.copyright {
+  background-color: #f0faff;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+/** end of copyright **/
